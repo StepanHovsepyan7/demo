@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #212121;
+    background: red;
     font-family: "Work Sans", sans-serif;
 }
 
@@ -20,7 +20,7 @@ header {
    
 }
 .bg{
-     background-image: url(../img/1.jpg);
+    background-image: url(../img/1.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
