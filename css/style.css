@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #212121;
+    font-family: "Work Sans", sans-serif;
+}
+
+[class*="__container"]{
+    max-width: 1440px;
+    padding: 88px;
+    margin: 0 auto;
+}
+header {
+    position: fixed;
+    width: 100%;
+   
+}
+.bg{
+     background-image: url(../img/1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 808px;
+}
+
+.header__container {
+    height: 95px;
+    display: flex;
+    align-items: center;
+    padding: 88px;
+}
+.logoParent {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.logo {
+    width: 28px;
+    height: 28px;
+}
+.logoParent a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.central {
+    font-weight: 800;
+}
+nav {
+
+    margin-left: 45px;
+}
+
+a{
+    text-decoration: none;
+}
+.headerList {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+}
+
+
+.headerList a{
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.icons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+
+.icons i {
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
